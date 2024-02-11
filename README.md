@@ -43,6 +43,25 @@ _Ignore the trailing "%" in the response -- I am not sure why that is there but 
 
 _In this example, I chose my $HOME/Applications folder to store the script. This folder is in my $PATH_
 
+Run python on the script
+
+```bash
+%python learn_imap_yahoo.py
+
+Mailbox : yourname@yahoo.com
+
+           FOLDER : MESSAGES
+----------------- : --------
+        "Archive" :        1
+           "Bulk" :       96
+          "Draft" :        2
+          "Inbox" :      292
+          "Notes" :        0
+"Notes/Subfolder" :        1
+           "Sent" :      204
+          "Trash" :       71
+```
+
 ## Testing and Assumptions
 
 * This program was tested on a Macbook Air using iTerm2 (a better alternative to the terminal)
