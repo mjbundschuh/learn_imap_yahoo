@@ -1,4 +1,4 @@
-# learn_imap_yahoo
+# learn_imap_yahoo.py
 
 Simple python script to open a Yahoo email account and list the folders and the number of message in each folder.
 
@@ -8,9 +8,9 @@ Simple python script to open a Yahoo email account and list the folders and the 
 
 You will need to generate an application password to access your Yahoo email account. Go to [Yahoo](https://help.yahoo.com/kb/SLN15241.html) and follow the steps there. You will generate a 16-char lowercase string application password - something like "ndvcpwgthudzkrdb".
 
-![Yahoo Generate App Password](images/gen-app-pw.png "Title")
+<img src="images/gen-app-pw.png" alt="Yahoo Generate App Password" height="200"/>
 
-### 2: Add Environment Variables
+### 2. Add Environment Variables
 
 You will need to set two environment variables to log into your Yahoo account.
 
@@ -22,10 +22,10 @@ You will need to set two environment variables to log into your Yahoo account.
 You can test they are set up properly by running these commands.
 
 ```bash
-%echo $YAHOO_USER | base64 --decode
+% echo $YAHOO_USER | base64 --decode
 yourname@yahoo.com%
 
-echo $YAHOO_PW | base64 --decode
+% echo $YAHOO_PW | base64 --decode
 ndvcpwgthudzkrdb%
 ```
 _Ignore the trailing "%" in the response -- I am not sure why that is there but it is ok to ignore._ 
@@ -35,18 +35,21 @@ _Ignore the trailing "%" in the response -- I am not sure why that is there but 
 * Go to [https://github.com/mjbundschuh/learn_imap_yahoo] 
 * Select the script
 
-![Download script](images/learn_imap_yahoo1.png "Download")
+<img src="images/learn_imap_yahoo1.png" alt="Download Script" height="200"/>
 
 * Select a destination. 
 
-![Select download location](images/learn_imap_yahoo2.png "Select Download Location")
+<img src="images/learn_imap_yahoo2.png" alt="Select Download Location" height="200"/>
 
 _In this example, I chose my $HOME/Applications folder to store the script. This folder is in my $PATH_
 
-Run python on the script
+### 4. Run the script
+
+Go to your Applications folder and run python on the script
 
 ```bash
-%python learn_imap_yahoo.py
+% cd ~/Applications
+% python learn_imap_yahoo.py
 
 Mailbox : yourname@yahoo.com
 
@@ -56,7 +59,7 @@ Mailbox : yourname@yahoo.com
            "Bulk" :       96
           "Draft" :        2
           "Inbox" :      292
-          "Notes" :        0
+          "Notes" :       10
 "Notes/Subfolder" :        1
            "Sent" :      204
           "Trash" :       71
@@ -67,7 +70,7 @@ Mailbox : yourname@yahoo.com
 * This program was tested on a Macbook Air using iTerm2 (a better alternative to the terminal)
 * You should be using Python3 and it should be in your PATH when you run this program
 * You know how to use a terminal and command-line commands
-* I use base64 encoded environment variables to hold the username and application password. This is useful for running this program in a given user's environment but *it is not true encryption*. Be sure to protect your passwords carefully!
+* I use base64 encoded environment variables to hold the username and application password. This is useful for running this program in a given user's environment but it is not true encryption. *Be sure to protect your passwords carefully!*
 
 ## Supporting Documentation
 
