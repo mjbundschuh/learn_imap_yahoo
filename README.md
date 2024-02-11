@@ -55,9 +55,7 @@ Mailbox : yourname@yahoo.com
 
            FOLDER : MESSAGES
 ----------------- : --------
-        "Archive" :        1
            "Bulk" :       96
-          "Draft" :        2
           "Inbox" :      292
           "Notes" :       10
 "Notes/Subfolder" :        1
