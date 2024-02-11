@@ -30,10 +30,18 @@ ndvcpwgthudzkrdb%
 ```
 _Ignore the trailing "%" in the response -- I am not sure why that is there but it is ok to ignore._ 
 
-## Step 3: How to run
+### 3. Download the script
 
-Copy this file to your $HOME/Applications folder.
-python learn_imap_yahoo.py
+* Go to [https://github.com/mjbundschuh/learn_imap_yahoo] 
+* Select the script
+
+![Download script](images/learn_imap_yahoo1.png "Download")
+
+* Select a destination. 
+
+![Select download location](images/learn_imap_yahoo2.png "Select Download Location")
+
+_In this example, I chose my $HOME/Applications folder to store the script. This folder is in my $PATH_
 
 ## Testing and Assumptions
 
