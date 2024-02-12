@@ -32,7 +32,7 @@ _Ignore the trailing "%" in the response -- I am not sure why that is there but 
 
 ### 3. Download the script
 
-* Go to [https://github.com/mjbundschuh/learn_imap_yahoo] 
+* Go to [https://github.com/mjbundschuh/learn_imaplib_yahoo] 
 * Select the script
 * Select the download button
 
