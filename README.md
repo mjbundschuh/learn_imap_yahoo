@@ -1,6 +1,6 @@
-# learn_imap_yahoo.py
+# learn_imaplib_yahoo.py
 
-Simple python script to open a Yahoo email account and list the folders and the number of message in each folder.
+Simple python script to open a Yahoo email account and list the folders and the number of message in each folder. This uses imaplib which is a module that is part of the Python standard distribution.
 
 ## Installation
 
@@ -34,6 +34,7 @@ _Ignore the trailing "%" in the response -- I am not sure why that is there but 
 
 * Go to [https://github.com/mjbundschuh/learn_imap_yahoo] 
 * Select the script
+* Select the download button
 
 <img src="images/learn_imap_yahoo1.png" alt="Download Script" height="200"/>
 
@@ -74,6 +75,10 @@ Mailbox : yourname@yahoo.com
 
 * [Yahoo IMAP Server Settings](https://help.yahoo.com/kb/SLN4075.html)
 
+## Learning Notes
+* This is my first script done with Python. I like the language since it is similar to Ruby.
+* Debugging is pretty easy and similar to Ruby using the _breakpoint()_ method
+* Printing is weird compared to other languages. Need to learn formatted printing better.
 
 ## License
 
